@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>AMS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login-header">
+            <h2>Welcome User</h2>
+            <p>Please sign up to access application</p>
+        </div>
+        <form id="loginForm">
+            <div id="messageContainer" class="message-container"></div>
+            <div class="input-group">
+                <label for="userid">Usename</label>
+                <input type="text" class="input-field" name="username" id="username" placeholder="Enter your username" />
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" class="input-field" name="password" id="password" placeholder="Enter your password" />
+            </div>
+            <button type="submit" class="login-btn" id="loginBtn">
+                <span>Signup</span>
+            </button>
+            <div class="forgot-password">
+                <span>Already a user?</span>
+                <a href="/index.html">Login</a>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
